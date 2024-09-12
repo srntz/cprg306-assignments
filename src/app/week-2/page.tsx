@@ -1,7 +1,11 @@
+import StudentInfo from "@/app/week-2/student-info";
+import Header from "@/components/global/Header";
+
 export default function Page() {
   return (
     <main>
-      <h1>Shopping List</h1>
+      <Header headerTitle="Shopping List" />
+      <StudentInfo />
     </main>
-  )
+  );
 }

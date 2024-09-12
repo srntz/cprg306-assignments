@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Header from "../components/global/Header";
+import Header from "@/components/global/header";
 
 export default function Home() {
   return (

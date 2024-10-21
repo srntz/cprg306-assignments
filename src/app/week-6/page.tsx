@@ -4,7 +4,7 @@ import Header from "@/components/global/header";
 import data from "./data/items.json";
 import ItemList from "@/app/week-6/components/item-list";
 import { useState } from "react";
-import SortingButtons from "@/app/week-6/components/SoringButtons";
+import SortingButtons from "@/app/week-6/components/sorting-buttons";
 import GroupedItemList from "@/app/week-6/components/grouped-item-list";
 import { SortingOptions } from "@/app/week-6/types";
 

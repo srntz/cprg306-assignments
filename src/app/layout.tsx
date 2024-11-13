@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { AuthContextProvider } from "@/app/week-9/utils/auth-context";
 
 export const metadata: Metadata = {
   title: "Shopping List",
@@ -13,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased bg-slate-950 px-24`}>{children}</body>
+      <AuthContextProvider>
+        <body className={`antialiased bg-slate-950 px-24`}>{children}</body>
+      </AuthContextProvider>
     </html>
   );
 }

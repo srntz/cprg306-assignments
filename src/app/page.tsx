@@ -48,6 +48,18 @@ export default function Home() {
         >
           Week 8
         </Link>
+        <Link
+          href={"/week-9"}
+          className="hover:bg-slate-800 hover:ml-3 rounded h-10 w-48 flex items-center p-3 transition-all"
+        >
+          Week 9
+        </Link>
+        <Link
+          href={"/week-10"}
+          className="hover:bg-slate-800 hover:ml-3 rounded h-10 w-48 flex items-center p-3 transition-all"
+        >
+          Week 10
+        </Link>
       </div>
     </div>
   );
